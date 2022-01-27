@@ -1,0 +1,97 @@
+site_name: Jetpack Compose
+site_url: https://compose.bughub.icu
+
+theme: 
+  name: 'material'
+  language: zh
+  logo: assets/logo.png
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: 亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: light-blue
+      toggle:
+        icon: material/lightbulb
+        name: 暗夜模式
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.top
+
+markdown_extensions:
+  - smarty
+  - codehilite:
+      guess_lang: true
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
+
+
+nav:
+  - 'Jetpack Compose 是什么？': 'index.md'
+  - '环境搭建':
+    - 'Windows 环境搭建': 'environment/windows.md'
+    - 'MacOS 环境搭建': 'environment/macOS.md'
+  - '项目结构': 'struct.md'
+  - '展示型组件': 
+    - 'Text' : 'components/Text.md'
+    - 'Button' : 'components/Button.md'
+    - 'Icon' : 'components/Icon.md'
+    - 'Image' : 'components/Image.md'
+  - '状态': 'State.md'
+  - '交互型组件': 
+    - 'Switch' : 'components/Switch.md'
+    - 'TextField' : 'components/TextField.md'
+    - 'ProgressIndicator' : 'components/ProgressIndicator.md'
+    - 'Slider' : 'components/Slider.md'
+  - '布局容器类组件': 
+    - 'Card' : 'layout/Card.md'
+    - 'Box' : 'layout/Box.md'
+    - 'Column' : 'layout/Column.md'
+    - 'Row' : 'layout/Row.md'
+    - 'ListItem' : 'layout/ListItem.md'
+    - 'LazyColumn' : 'layout/LazyColumn.md'
+    - 'LazyRow' : 'layout/LazyRow.md'
+    - 'LazyVerticalGrid' : 'layout/LazyVerticalGrid.md'
+    - 'ConstraintLayout' : 'layout/ConstraintLayout.md'
+    - 'TabRow' : 'layout/TabRow.md'
+    - 'DropdownMenu' : 'layout/DropdownMenu.md'
+    - 'SwipeToDismiss' : 'layout/SwipeToDismiss.md'
+    - 'Surface' : 'layout/Surface.md'
+    - 'Scaffold' : 'layout/Scaffold.md'
+    - 'Dialog' : 'layout/Dialog.md'
+    - 'Canvas' : 'layout/Canvas.md'
+  - '还有一些组件': 
+    - 'Spacer' : 'components/Spacer.md'
+    - 'Divider' : 'components/Divider.md'
+    - 'CheckBox' : 'components/CheckBox.md'
+    - 'RadioButton' : 'components/RadioButton.md'
+  - 'ComposeView': 'layout/ComposeView.md'
+  - 'Animation': 'Animation.md'
+  - '导航': 'navigaiton.md'
+  - '生命周期': 'Lifecycle.md'
+  - 'CompositionLocal': 'CompositionLocal.md'
+  - '权限': 'permissions.md'
+  - '关于': 'about.md'
