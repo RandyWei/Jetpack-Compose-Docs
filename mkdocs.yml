@@ -1,5 +1,9 @@
-site_name: Jetpack Compose
-site_url: https://compose.bughub.icu
+site_name: Jetpack Compose Docs
+site_url: https://docs.bughub.icu/compose
+repo_url: https://gitee.com/RandyWei
+site_description: Jetpack Compose Docs
+site_author: RandyWei
+copyright: CopyRight © 2022 RandyWei
 
 theme: 
   name: 'material'
