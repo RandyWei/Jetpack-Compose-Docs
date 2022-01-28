@@ -64,6 +64,7 @@ nav:
     - 'Button' : 'components/Button.md'
     - 'Icon' : 'components/Icon.md'
     - 'Image' : 'components/Image.md'
+  - 'Modifiers': 'Modifiers.md'
   - '状态': 'State.md'
   - '交互型组件': 
     - 'Switch' : 'components/Switch.md'
