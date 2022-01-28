@@ -373,3 +373,6 @@ fun TextSample() {
 
 ![Text](../assets/text9.gif)
 
+## 更多
+
+[官方文档 Text 用法](https://developer.android.com/jetpack/compose/text)
