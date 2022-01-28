@@ -1,203 +1,208 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://compose.bughub.icu/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/Animation/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/Animation/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/CompositionLocal/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/CompositionLocal/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/Lifecycle/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/Lifecycle/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/State/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/Modifiers/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/about/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/State/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/navigaiton/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/about/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/permissions/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/navigaiton/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/struct/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/permissions/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Button/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/struct/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/CheckBox/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Button/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Divider/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/CheckBox/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Icon/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Divider/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Image/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Icon/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/ProgressIndicator/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Image/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/RadioButton/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/ProgressIndicator/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Slider/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/RadioButton/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Spacer/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Slider/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Switch/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Spacer/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/Text/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Switch/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/components/TextField/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/Text/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/environment/macOS/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/components/TextField/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/environment/windows/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/environment/macOS/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Box/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/environment/windows/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Canvas/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Box/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Card/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Canvas/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Column/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Card/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/ComposeView/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Column/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/ConstraintLayout/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/ComposeView/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Dialog/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/ConstraintLayout/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/DropdownMenu/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Dialog/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/LazyColumn/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/DropdownMenu/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/LazyRow/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/LazyColumn/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/LazyVerticalGrid/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/LazyRow/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/ListItem/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/LazyVerticalGrid/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Row/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/ListItem/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Scaffold/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Row/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/Surface/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Scaffold/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/SwipeToDismiss/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/Surface/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://compose.bughub.icu/layout/TabRow/</loc>
-         <lastmod>2022-01-27</lastmod>
+         <loc>https://docs.bughub.icu/compose/layout/SwipeToDismiss/</loc>
+         <lastmod>2022-01-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.bughub.icu/compose/layout/TabRow/</loc>
+         <lastmod>2022-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

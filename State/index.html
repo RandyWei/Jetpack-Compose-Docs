@@ -6,16 +6,20 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Jetpack Compose Docs">
       
       
-        <link rel="canonical" href="https://compose.bughub.icu/State/">
+        <meta name="author" content="RandyWei">
+      
+      
+        <link rel="canonical" href="https://docs.bughub.icu/compose/State/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
-        <title>状态 - Jetpack Compose</title>
+        <title>状态 - Jetpack Compose Docs</title>
       
     
     
@@ -63,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#composition" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -73,7 +82,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href=".." title="Jetpack Compose" class="md-header__button md-logo" aria-label="Jetpack Compose" data-md-component="logo">
+    <a href=".." title="Jetpack Compose Docs" class="md-header__button md-logo" aria-label="Jetpack Compose Docs" data-md-component="logo">
       
   <img src="../assets/logo.png" alt="logo">
 
@@ -85,7 +94,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Jetpack Compose
+            Jetpack Compose Docs
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -156,6 +165,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://gitee.com/RandyWei" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitee
+  </div>
+</a>
+      </div>
+    
   </nav>
   
 </header>
@@ -180,13 +201,25 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Jetpack Compose" class="md-nav__button md-logo" aria-label="Jetpack Compose" data-md-component="logo">
+    <a href=".." title="Jetpack Compose Docs" class="md-nav__button md-logo" aria-label="Jetpack Compose Docs" data-md-component="logo">
       
   <img src="../assets/logo.png" alt="logo">
 
     </a>
-    Jetpack Compose
+    Jetpack Compose Docs
   </label>
+  
+    <div class="md-nav__source">
+      <a href="https://gitee.com/RandyWei" title="前往仓库" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Gitee
+  </div>
+</a>
+    </div>
   
   <ul class="md-nav__list" data-md-scrollfix>
     
@@ -378,6 +411,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../Modifiers/" class="md-nav__link">
+        Modifiers
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -387,9 +435,154 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          状态
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         状态
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#composition" class="md-nav__link">
+    状态和composition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composable" class="md-nav__link">
+    composable 中的状态
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    其他可观察对象
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    状态提升
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    恢复状态
+  </a>
+  
+    <nav class="md-nav" aria-label="恢复状态">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    存储方式
+  </a>
+  
+    <nav class="md-nav" aria-label="存储方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parcelize" class="md-nav__link">
+    Parcelize
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapsaver" class="md-nav__link">
+    MapSaver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listsaver" class="md-nav__link">
+    ListSaver
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    管理状态
+  </a>
+  
+    <nav class="md-nav" aria-label="管理状态">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    不同类型的状态和逻辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#composables" class="md-nav__link">
+    Composables 作为可信来源
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    状态容器作为可信来源
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewmodel" class="md-nav__link">
+    ViewModel 作为可信来源
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    更多
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -406,18 +599,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" data-md-state="indeterminate" type="checkbox" id="__nav_7" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_7">
           交互型组件
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="交互型组件" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+        <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           交互型组件
         </label>
@@ -496,18 +689,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" data-md-state="indeterminate" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_7">
+        <label class="md-nav__link" for="__nav_8">
           布局容器类组件
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="布局容器类组件" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           布局容器类组件
         </label>
@@ -754,18 +947,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" data-md-state="indeterminate" type="checkbox" id="__nav_9" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_8">
+        <label class="md-nav__link" for="__nav_9">
           还有一些组件
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="还有一些组件" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
+        <label class="md-nav__title" for="__nav_9">
           <span class="md-nav__icon md-icon"></span>
           还有一些组件
         </label>
@@ -945,6 +1138,153 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#composition" class="md-nav__link">
+    状态和composition
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#composable" class="md-nav__link">
+    composable 中的状态
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    其他可观察对象
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    状态提升
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    恢复状态
+  </a>
+  
+    <nav class="md-nav" aria-label="恢复状态">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    存储方式
+  </a>
+  
+    <nav class="md-nav" aria-label="存储方式">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parcelize" class="md-nav__link">
+    Parcelize
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mapsaver" class="md-nav__link">
+    MapSaver
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#listsaver" class="md-nav__link">
+    ListSaver
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    管理状态
+  </a>
+  
+    <nav class="md-nav" aria-label="管理状态">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    不同类型的状态和逻辑
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#composables" class="md-nav__link">
+    Composables 作为可信来源
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    状态容器作为可信来源
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#viewmodel" class="md-nav__link">
+    ViewModel 作为可信来源
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    更多
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -953,7 +1293,342 @@
 
   <h1>状态</h1>
 
+<p>应用中的状态是指可以随时间变化的任何值。这个定义很广泛包括数据库或类中变量的所有内容。</p>
+<ul>
+<li>当网速不通畅时需要显示一个 Snackbar 给用户</li>
+<li>博文和相关评论发生变化时</li>
+<li>用户点击按钮发生的动画</li>
+</ul>
+<p>Jetpack Compose 可帮助您明确状态在 Android 应用中的存储位置和使用方式。本指南重点介绍状态与可组合项之间的关联，以及 Jetpack Compose 提供的 API，您可以通过这些 API 更轻松地处理状态。</p>
+<h2 id="composition">状态和composition<a class="headerlink" href="#composition" title="Permanent link">&para;</a></h2>
+<p>由于Compose 是声明式的，所以当需要改变其任何内容的时候，通过设置新的参数调用同一组声明，这些参数就是 UI 的表现形式。每State 更新时，都会发生重组。</p>
+<h2 id="composable">composable 中的状态<a class="headerlink" href="#composable" title="Permanent link">&para;</a></h2>
+<p>Composable中可以使用<code>remember</code>来记住单个对象。系统会在初始化由 <code>remember</code>计算的值存储在Composable中，并在重组的时候返回存储的值。<code>remember</code>既可以存储可变对象，也可以存储不可变对象。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><code>remember</code>会将对象存储在Composable 中，当调用 <code>remember</code>的Composable被移除后，存储的值也随之消失。</p>
+</div>
+<p><code>mutableStateOf</code>会创建可观察的 <code>MutableState&lt;T&gt;</code>，后者是 Compose 运行时可观察类型。</p>
+<div class="highlight"><pre><span></span><code><span class="kd">interface</span> <span class="nc">MutableState</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="p">:</span> <span class="n">State</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span> <span class="p">{</span>
+    <span class="kd">override</span> <span class="kd">var</span> <span class="nv">value</span><span class="p">:</span> <span class="n">T</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>value 有任何更改，系统会安排重组，读取value 的所有Composable 函数。</p>
+<p>在Composable中声明 MutableState 对象有三种方法：</p>
+<ul>
+<li><code>val mutableState = remember { mutableStateOf(default) }</code></li>
+<li><code>var value by remember { mutableStateOf(default) }</code></li>
+<li><code>val (value, setValue) = remember { mutableStateOf(default) }</code></li>
+</ul>
+<p>这三种方法是等效的，以语法糖的形式提供不同的用法。使用 by 语法需要导入：</p>
+<div class="highlight"><pre><span></span><code><span class="k">import</span> <span class="nn">androidx.compose.runtime.getValue</span>
+<span class="k">import</span> <span class="nn">androidx.compose.runtime.setValue</span>
+</code></pre></div>
+<p>你可以将状态值作为 Composable 的参数，也可以用作逻辑语句中的判断条件。</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">HelloContent</span><span class="p">()</span> <span class="p">{</span>
+   <span class="n">Column</span><span class="p">(</span><span class="n">modifier</span> <span class="o">=</span> <span class="n">Modifier</span><span class="p">.</span><span class="na">padding</span><span class="p">(</span><span class="m">16.</span><span class="n">dp</span><span class="p">))</span> <span class="p">{</span>
+       <span class="kd">var</span> <span class="nv">name</span> <span class="k">by</span> <span class="n">remember</span> <span class="p">{</span> <span class="n">mutableStateOf</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">)</span> <span class="p">}</span>
+       <span class="k">if</span> <span class="p">(</span><span class="n">name</span><span class="p">.</span><span class="na">isNotEmpty</span><span class="p">())</span> <span class="p">{</span>
+           <span class="n">Text</span><span class="p">(</span>
+               <span class="n">text</span> <span class="o">=</span> <span class="s">&quot;Hello, </span><span class="si">$</span><span class="n">name</span><span class="s">!&quot;</span><span class="p">,</span>
+               <span class="n">modifier</span> <span class="o">=</span> <span class="n">Modifier</span><span class="p">.</span><span class="na">padding</span><span class="p">(</span><span class="n">bottom</span> <span class="o">=</span> <span class="m">8.</span><span class="n">dp</span><span class="p">),</span>
+               <span class="n">style</span> <span class="o">=</span> <span class="n">MaterialTheme</span><span class="p">.</span><span class="na">typography</span><span class="p">.</span><span class="na">h5</span>
+           <span class="p">)</span>
+       <span class="p">}</span>
+       <span class="n">OutlinedTextField</span><span class="p">(</span>
+           <span class="n">value</span> <span class="o">=</span> <span class="n">name</span><span class="p">,</span>
+           <span class="n">onValueChange</span> <span class="o">=</span> <span class="p">{</span> <span class="n">name</span> <span class="o">=</span> <span class="nb">it</span> <span class="p">},</span>
+           <span class="n">label</span> <span class="o">=</span> <span class="p">{</span> <span class="n">Text</span><span class="p">(</span><span class="s">&quot;Name&quot;</span><span class="p">)</span> <span class="p">}</span>
+       <span class="p">)</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>虽然<code>remember</code>可以在重组后保持状态，但如果是应用的配置更新了，比如屏幕旋转，这时候这个状态也会重置。因此，必须使用 <code>rememberSaveable</code>。
+<code>rememberSaveable</code>会自动保存可保存的 Bundle 中的值。对于其他值，可以将其传入自定义 Saver 对象。</p>
+</div>
+<h2 id="_1">其他可观察对象<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<p>Jetpack Compose 不强制使用 MutableState<T>存储状态，也支持其他可观察类型。但在 Jetpack Compose 中读取其他可观察类型之前，必须将其转为 State<T>，以便 Jetpack Compose 可以在状态发生变化时自动重组界面。</p>
+<p>其他可用的可观察类型：</p>
+<ul>
+<li><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/livedata/package-summary">LiveData</a></li>
+<li><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/package-summary#(kotlinx.coroutines.flow.StateFlow).collectAsState(kotlin.coroutines.CoroutineContext)">Flow</a></li>
+<li><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/rxjava2/package-summary">RxJava2</a></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Compose 是通过读取State<T>对象自动重组界面的。
+如果在 Compose 中使用 LiveData 等其他可观察类型，应该先将其转换为 State<T> 然后再使用。比如 <code>LiveData&lt;T&gt;.observeAsState()</code>。</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>在 Compose 中将可变对象，如 ArrayList<T>或 mutableListOf()等用作状态，可以造成界面无法更新，用户看到的永远是旧的数据。建议使用可观察的数据存储器，如 State<List\<T>>和不可变的 listOf()，而不是使用不可观察的可变对象。</p>
+</div>
+<h2 id="_2">状态提升<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p>使用<code>remember</code>存储对象的 Composable 中创建内部状态，使该Composable有了状态，会在其内部保持和修改自己的状态。在调用者不需要控制和管理状态的情况下，这么操作是可以的。但是一般这种Composable不能复用，也不好测试。</p>
+<p>因此如果在编写的组件考虑复用的情况下，应该将状态移到 Composable 组件的调用者，保证Composable本身是无状态的，这种操作叫做状态提升。</p>
+<p>Jetpack Compose 中一般的状态提升模式是将状态变量替换为两个参数：</p>
+<ul>
+<li><code>value:T</code>：要显示的当前值</li>
+<li><code>onValueChange:(T) -&gt; Unit</code>：请求更改值的事件，其中 T 是建议的新值</li>
+</ul>
+<p>其实，并不一定定义为 onValueChange ，需要根据具体的操作来定义更有意义的名称。比如 onExpand 和 onCollapse。</p>
+<p>以这种方式提升的状态具有一些重要的属性：</p>
+<ul>
+<li>单一可信来源：通过移动状态而不是复制状态，来确保只有一个可信的数据来源，可以避免一些 bug</li>
+<li>封装：只有有状态的Composable能够修改其状态</li>
+<li>可共享：可与多个Composable共享提升的状态</li>
+<li>可拦截：无状态Composable的调用者可以在更改状态前决定忽略或修改事件</li>
+<li>解耦：无状态Composable的状态可以存储在任何位置</li>
+</ul>
+<p>在本示例中，您从 HelloContent 中提取 name 和 onValueChange，并按照可组合项的树结构将它们移至可调用 HelloContent 的 HelloScreen 中。</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">HelloScreen</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">name</span> <span class="k">by</span> <span class="n">rememberSaveable</span> <span class="p">{</span> <span class="n">mutableStateOf</span><span class="p">(</span><span class="s">&quot;&quot;</span><span class="p">)</span> <span class="p">}</span>
 
+    <span class="n">HelloContent</span><span class="p">(</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span><span class="p">,</span> <span class="n">onNameChange</span> <span class="o">=</span> <span class="p">{</span> <span class="n">name</span> <span class="o">=</span> <span class="nb">it</span> <span class="p">})</span>
+<span class="p">}</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">HelloContent</span><span class="p">(</span><span class="n">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">onNameChange</span><span class="p">:</span> <span class="p">(</span><span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Unit</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">Column</span><span class="p">(</span><span class="n">modifier</span> <span class="o">=</span> <span class="n">Modifier</span><span class="p">.</span><span class="na">padding</span><span class="p">(</span><span class="m">16.</span><span class="n">dp</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">Text</span><span class="p">(</span>
+            <span class="n">text</span> <span class="o">=</span> <span class="s">&quot;Hello, </span><span class="si">$</span><span class="n">name</span><span class="s">&quot;</span><span class="p">,</span>
+            <span class="n">modifier</span> <span class="o">=</span> <span class="n">Modifier</span><span class="p">.</span><span class="na">padding</span><span class="p">(</span><span class="n">bottom</span> <span class="o">=</span> <span class="m">8.</span><span class="n">dp</span><span class="p">),</span>
+            <span class="n">style</span> <span class="o">=</span> <span class="n">MaterialTheme</span><span class="p">.</span><span class="na">typography</span><span class="p">.</span><span class="na">h5</span>
+        <span class="p">)</span>
+        <span class="n">OutlinedTextField</span><span class="p">(</span>
+            <span class="n">value</span> <span class="o">=</span> <span class="n">name</span><span class="p">,</span>
+            <span class="n">onValueChange</span> <span class="o">=</span> <span class="n">onNameChange</span><span class="p">,</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="p">{</span> <span class="n">Text</span><span class="p">(</span><span class="s">&quot;Name&quot;</span><span class="p">)</span> <span class="p">}</span>
+        <span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>通过从 HelloContent 中提升出状态，更容易推断该Composable在不同的情况下重复使用它，以及进行测试。HelloContent 与状态的存储方式解耦。解耦意味着，如果您修改或替换 HelloScreen，不必更改 HelloContent 的实现方式。</p>
+<p><img alt="" src="../assets/udf-hello-screen.png" /></p>
+<p>状态下降、事件上升的这种模式称为“单向数据流”。在这种情况下，状态会从 HelloScreen 下降为 HelloContent，事件会从 HelloContent 上升为 HelloScreen。通过遵循单向数据流，您可以将在界面中显示状态的可组合项与应用中存储和更改状态的部分解耦。</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<blockquote>
+<p>When hoisting state, there are three rules to help you figure out where state should go:</p>
+<p>State should be hoisted to at least the lowest common parent of all composables that use the state (read).</p>
+<p>If two states change in response to the same events they should be hoisted together.</p>
+<p>State should be hoisted to at least the highest level it may be changed (write).</p>
+</blockquote>
+<p>提升状态时，有三条规则：</p>
+<ol>
+<li>
+<p>状态应至少提升到使用该状态(读取)的所有Composable的最低共同父项</p>
+</li>
+<li>
+<p>状态应至少提升到它可以发生变化(写入)的最高级别</p>
+</li>
+<li>
+<p>如果两种状态发生变化以响应相同的事件，它们应该一直提升。</p>
+</li>
+</ol>
+</div>
+<h2 id="_3">恢复状态<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<p>在重新创建 Activity 或进程后，可以使用<code>rememberSaverable</code>恢复界面状态。</p>
+<h3 id="_4">存储方式<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>添加到 Bundle 的所有数据类型都会自动保存。如果要保存无法添加到 Bundle 的内容，可以有以下几种方式</p>
+<h4 id="parcelize">Parcelize<a class="headerlink" href="#parcelize" title="Permanent link">&para;</a></h4>
+<p>最简单的解决方案是向对象添加@Parcelize 注解。</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@Parcelize</span>
+<span class="kd">data</span> <span class="kd">class</span> <span class="nc">City</span><span class="p">(</span><span class="kd">val</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kd">val</span> <span class="nv">country</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">:</span> <span class="n">Parcelable</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">CityScreen</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">selectedCity</span> <span class="o">=</span> <span class="n">rememberSaveable</span> <span class="p">{</span>
+        <span class="n">mutableStateOf</span><span class="p">(</span><span class="n">City</span><span class="p">(</span><span class="s">&quot;Madrid&quot;</span><span class="p">,</span> <span class="s">&quot;Spain&quot;</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h4 id="mapsaver">MapSaver<a class="headerlink" href="#mapsaver" title="Permanent link">&para;</a></h4>
+<p>如果某种原因导致 <code>@Parcelize</code> 不合适，您可以使用 <code>mapSaver</code> 定义自己的规则，规定如何将对象转换为系统可保存到 <code>Bundle</code> 的一组值。</p>
+<div class="highlight"><pre><span></span><code><span class="kd">data</span> <span class="kd">class</span> <span class="nc">City</span><span class="p">(</span><span class="kd">val</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kd">val</span> <span class="nv">country</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span>
+
+<span class="kd">val</span> <span class="nv">CitySaver</span> <span class="o">=</span> <span class="n">run</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="nv">nameKey</span> <span class="o">=</span> <span class="s">&quot;Name&quot;</span>
+    <span class="kd">val</span> <span class="nv">countryKey</span> <span class="o">=</span> <span class="s">&quot;Country&quot;</span>
+    <span class="n">mapSaver</span><span class="p">(</span>
+        <span class="n">save</span> <span class="o">=</span> <span class="p">{</span> <span class="n">mapOf</span><span class="p">(</span><span class="n">nameKey</span> <span class="n">to</span> <span class="nb">it</span><span class="p">.</span><span class="na">name</span><span class="p">,</span> <span class="n">countryKey</span> <span class="n">to</span> <span class="nb">it</span><span class="p">.</span><span class="na">country</span><span class="p">)</span> <span class="p">},</span>
+        <span class="n">restore</span> <span class="o">=</span> <span class="p">{</span> <span class="n">City</span><span class="p">(</span><span class="nb">it</span><span class="o">[</span><span class="n">nameKey</span><span class="o">]</span> <span class="k">as</span> <span class="kt">String</span><span class="p">,</span> <span class="nb">it</span><span class="o">[</span><span class="n">countryKey</span><span class="o">]</span> <span class="k">as</span> <span class="kt">String</span><span class="p">)</span> <span class="p">}</span>
+    <span class="p">)</span>
+<span class="p">}</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">CityScreen</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">selectedCity</span> <span class="o">=</span> <span class="n">rememberSaveable</span><span class="p">(</span><span class="n">stateSaver</span> <span class="o">=</span> <span class="n">CitySaver</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">mutableStateOf</span><span class="p">(</span><span class="n">City</span><span class="p">(</span><span class="s">&quot;Madrid&quot;</span><span class="p">,</span> <span class="s">&quot;Spain&quot;</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h4 id="listsaver">ListSaver<a class="headerlink" href="#listsaver" title="Permanent link">&para;</a></h4>
+<p>为了避免需要为映射定义键，您也可以使用 <code>listSaver</code> 并将其索引用作键：</p>
+<div class="highlight"><pre><span></span><code><span class="kd">data</span> <span class="kd">class</span> <span class="nc">City</span><span class="p">(</span><span class="kd">val</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kd">val</span> <span class="nv">country</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span>
+
+<span class="kd">val</span> <span class="nv">CitySaver</span> <span class="o">=</span> <span class="n">listSaver</span><span class="o">&lt;</span><span class="n">City</span><span class="p">,</span> <span class="kt">Any</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="n">save</span> <span class="o">=</span> <span class="p">{</span> <span class="n">listOf</span><span class="p">(</span><span class="nb">it</span><span class="p">.</span><span class="na">name</span><span class="p">,</span> <span class="nb">it</span><span class="p">.</span><span class="na">country</span><span class="p">)</span> <span class="p">},</span>
+    <span class="n">restore</span> <span class="o">=</span> <span class="p">{</span> <span class="n">City</span><span class="p">(</span><span class="nb">it</span><span class="o">[</span><span class="m">0</span><span class="o">]</span> <span class="k">as</span> <span class="kt">String</span><span class="p">,</span> <span class="nb">it</span><span class="o">[</span><span class="m">1</span><span class="o">]</span> <span class="k">as</span> <span class="kt">String</span><span class="p">)</span> <span class="p">}</span>
+<span class="p">)</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">CityScreen</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nv">selectedCity</span> <span class="o">=</span> <span class="n">rememberSaveable</span><span class="p">(</span><span class="n">stateSaver</span> <span class="o">=</span> <span class="n">CitySaver</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">mutableStateOf</span><span class="p">(</span><span class="n">City</span><span class="p">(</span><span class="s">&quot;Madrid&quot;</span><span class="p">,</span> <span class="s">&quot;Spain&quot;</span><span class="p">))</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="_5">管理状态<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
+<p>在前面说到的状态提升，可以简单的把状态进行一定的统一管理。但是如果随着项目功能的丰富，需要跟踪的状态数量也随之增加或者Composable中需要执行业务逻辑时，最好将逻辑和状态事务委派给其他类（状态容器）</p>
+<p>下面将介绍如何在 Compose 中以不同方式管理状态。根据Composable的复杂性，需要考虑不同的方案：</p>
+<ul>
+<li>Composables：用于管理简单的界面元素状态</li>
+<li>状态容器：用于管理复杂的界面元素状态且拥有界面逻辑</li>
+<li>ViewModel：提供对于业务逻辑和 UI 状态的状态容器</li>
+</ul>
+<p>状态容器的大小取决于所管理的界面元素的范围，有时候甚至需要将某个状态容器集成到其他状态容器中。</p>
+<p>下图所示为 Compose 状态管理所涉及的各实体之间的关系概览。</p>
+<ul>
+<li>Composable可以信赖于0个或多个状态容器，具体取决于其复杂性</li>
+<li>如果需要访问业务逻辑或UI 状态，则可能需要信赖于 ViewModel</li>
+<li>ViewModel 信赖于业务层或数据层</li>
+</ul>
+<p><img alt="state-dependencies" src="../assets/state-dependencies.svg" /></p>
+<h3 id="_6">不同类型的状态和逻辑<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<p>在 Android 应用中，需要考虑不同类型的状态：</p>
+<ul>
+<li>UI组件状态是组件的提升状态。例如<code>ScaffoldState</code>用于处理 <code>Scaffold</code>的状态。</li>
+<li>界面 UI 状态是界面上需要显示的内容。比如一个商城 APP 上的购物车界面可能包含商品信息、向用户显示的消息或加载标记。该状态通常会和其他层相关联。</li>
+</ul>
+<p>此外，逻辑也有不同的类型：</p>
+<ul>
+<li>界面操作逻辑和 UI 逻辑：如何在屏幕上显示状态。例如，导航逻辑决定显示哪个界面。</li>
+<li>业务逻辑决定如何处理状态变化，通常位于业务层或数据层，而不应该放在 UI 层</li>
+</ul>
+<h3 id="composables">Composables 作为可信来源<a class="headerlink" href="#composables" title="Permanent link">&para;</a></h3>
+<p>如果状态数量较少和逻辑比较简单，在Composable中直接增加逻辑和状态是可以的，与其相关的交互都应该在这个Composable进行。但是如果将它传递给其他Composable，这就不符合单一可信来源原则，而且会使调试更多困难。</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">MyApp</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">MyTheme</span> <span class="p">{</span>
+        <span class="kd">val</span> <span class="nv">scaffoldState</span> <span class="o">=</span> <span class="n">rememberScaffoldState</span><span class="p">()</span>
+        <span class="kd">val</span> <span class="nv">coroutineScope</span> <span class="o">=</span> <span class="n">rememberCoroutineScope</span><span class="p">()</span>
+
+        <span class="n">Scaffold</span><span class="p">(</span><span class="n">scaffoldState</span> <span class="o">=</span> <span class="n">scaffoldState</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">MyContent</span><span class="p">(</span>
+                <span class="n">showSnackbar</span> <span class="o">=</span> <span class="p">{</span> <span class="n">message</span> <span class="o">-&gt;</span>
+                    <span class="n">coroutineScope</span><span class="p">.</span><span class="na">launch</span> <span class="p">{</span>
+                        <span class="n">scaffoldState</span><span class="p">.</span><span class="na">snackbarHostState</span><span class="p">.</span><span class="na">showSnackbar</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+                    <span class="p">}</span>
+                <span class="p">}</span>
+            <span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="_7">状态容器作为可信来源<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<p>当Composable涉及多个界面的状态等复杂逻辑时，应将相应事务委派给状态容器。这样更易于单独对该逻辑进行测试，还降低了Composable的复杂性。保证Composable只是负责展示，而状态容器负责逻辑和状态</p>
+<p>在上面 MyApp 的例子中，如果增加更多的逻辑，那么就可以创建一个MyAppState状态容器来管理</p>
+<div class="highlight"><pre><span></span><code><span class="c1">// Plain class that manages App&#39;s UI logic and UI elements&#39; state</span>
+<span class="kd">class</span> <span class="nc">MyAppState</span><span class="p">(</span>
+    <span class="kd">val</span> <span class="nv">scaffoldState</span><span class="p">:</span> <span class="n">ScaffoldState</span><span class="p">,</span>
+    <span class="kd">val</span> <span class="nv">navController</span><span class="p">:</span> <span class="n">NavHostController</span><span class="p">,</span>
+    <span class="kd">private</span> <span class="kd">val</span> <span class="nv">resources</span><span class="p">:</span> <span class="n">Resources</span><span class="p">,</span>
+    <span class="cm">/* ... */</span>
+<span class="p">)</span> <span class="p">{</span>
+    <span class="kd">val</span> <span class="nv">bottomBarTabs</span> <span class="o">=</span> <span class="cm">/* State */</span>
+
+    <span class="c1">// Logic to decide when to show the bottom bar</span>
+    <span class="kd">val</span> <span class="nv">shouldShowBottomBar</span><span class="p">:</span> <span class="kt">Boolean</span>
+        <span class="k">get</span><span class="p">()</span> <span class="o">=</span> <span class="cm">/* ... */</span>
+
+    <span class="c1">// Navigation logic, which is a type of UI logic</span>
+    <span class="kd">fun</span> <span class="nf">navigateToBottomBarRoute</span><span class="p">(</span><span class="n">route</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+
+    <span class="c1">// Show snackbar using Resources</span>
+    <span class="kd">fun</span> <span class="nf">showSnackbar</span><span class="p">(</span><span class="n">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">rememberMyAppState</span><span class="p">(</span>
+    <span class="n">scaffoldState</span><span class="p">:</span> <span class="n">ScaffoldState</span> <span class="o">=</span> <span class="n">rememberScaffoldState</span><span class="p">(),</span>
+    <span class="n">navController</span><span class="p">:</span> <span class="n">NavHostController</span> <span class="o">=</span> <span class="n">rememberNavController</span><span class="p">(),</span>
+    <span class="n">resources</span><span class="p">:</span> <span class="n">Resources</span> <span class="o">=</span> <span class="n">LocalContext</span><span class="p">.</span><span class="na">current</span><span class="p">.</span><span class="na">resources</span><span class="p">,</span>
+    <span class="cm">/* ... */</span>
+<span class="p">)</span> <span class="o">=</span> <span class="n">remember</span><span class="p">(</span><span class="n">scaffoldState</span><span class="p">,</span> <span class="n">navController</span><span class="p">,</span> <span class="n">resources</span><span class="p">,</span> <span class="cm">/* ... */</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">MyAppState</span><span class="p">(</span><span class="n">scaffoldState</span><span class="p">,</span> <span class="n">navController</span><span class="p">,</span> <span class="n">resources</span><span class="p">,</span> <span class="cm">/* ... */</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>因为在使用MyAppState 的时候需要使用<code>remember</code>来进行信赖，所以通常情况下可以创建一个<code>rememberMyAppState</code>方法来直接返回MyAppState实例。</p>
+<p>那么现在 MyApp 的代码就可以变得很简单了</p>
+<div class="highlight"><pre><span></span><code><span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">MyApp</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">MyTheme</span> <span class="p">{</span>
+        <span class="kd">val</span> <span class="nv">myAppState</span> <span class="o">=</span> <span class="n">rememberMyAppState</span><span class="p">()</span>
+        <span class="n">Scaffold</span><span class="p">(</span>
+            <span class="n">scaffoldState</span> <span class="o">=</span> <span class="n">myAppState</span><span class="p">.</span><span class="na">scaffoldState</span><span class="p">,</span>
+            <span class="n">bottomBar</span> <span class="o">=</span> <span class="p">{</span>
+                <span class="k">if</span> <span class="p">(</span><span class="n">myAppState</span><span class="p">.</span><span class="na">shouldShowBottomBar</span><span class="p">)</span> <span class="p">{</span>
+                    <span class="n">BottomBar</span><span class="p">(</span>
+                        <span class="n">tabs</span> <span class="o">=</span> <span class="n">myAppState</span><span class="p">.</span><span class="na">bottomBarTabs</span><span class="p">,</span>
+                        <span class="n">navigateToRoute</span> <span class="o">=</span> <span class="p">{</span>
+                            <span class="n">myAppState</span><span class="p">.</span><span class="na">navigateToBottomBarRoute</span><span class="p">(</span><span class="nb">it</span><span class="p">)</span>
+                        <span class="p">}</span>
+                    <span class="p">)</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">)</span> <span class="p">{</span>
+            <span class="n">NavHost</span><span class="p">(</span><span class="n">navController</span> <span class="o">=</span> <span class="n">myAppState</span><span class="p">.</span><span class="na">navController</span><span class="p">,</span> <span class="s">&quot;initial&quot;</span><span class="p">)</span> <span class="p">{</span> <span class="cm">/* ... */</span> <span class="p">}</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="viewmodel">ViewModel 作为可信来源<a class="headerlink" href="#viewmodel" title="Permanent link">&para;</a></h3>
+<p>ViewModel 是一种特殊的状态容器，主要负责：</p>
+<ul>
+<li>对应用的业务逻辑或数据进行处理，这个逻辑通常是在业务层或数据层</li>
+<li>处理即将在界面上展示的应用数据</li>
+</ul>
+<p>ViewModel 的生命周期往往是比较长的，原因是它们在配置发生变化后仍然有效。ViewModel 可以遵循 Activity、Fragment、或导航（如果使用了<a href="https://developer.android.com/jetpack/compose/navigation">导航库</a>）的生命周期。正因为 ViewModel 的生命周期较长，因此不应该长期持有和 Composable 密切相关的一些状态，否则，可以会导致内存泄漏。</p>
+<div class="highlight"><pre><span></span><code><span class="kd">data</span> <span class="kd">class</span> <span class="nc">ExampleUiState</span><span class="p">(</span>
+    <span class="n">dataToDisplayOnScreen</span><span class="p">:</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Example</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">emptyList</span><span class="p">(),</span>
+    <span class="n">userMessages</span><span class="p">:</span> <span class="n">List</span><span class="o">&lt;</span><span class="n">Message</span><span class="o">&gt;</span> <span class="o">=</span> <span class="n">emptyList</span><span class="p">(),</span>
+    <span class="n">loading</span><span class="p">:</span> <span class="kt">Boolean</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="p">)</span>
+
+<span class="kd">class</span> <span class="nc">ExampleViewModel</span><span class="p">(</span>
+    <span class="kd">private</span> <span class="kd">val</span> <span class="nv">repository</span><span class="p">:</span> <span class="n">MyRepository</span><span class="p">,</span>
+    <span class="kd">private</span> <span class="kd">val</span> <span class="nv">savedState</span><span class="p">:</span> <span class="n">SavedStateHandle</span>
+<span class="p">)</span> <span class="p">:</span> <span class="n">ViewModel</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="kd">var</span> <span class="nv">uiState</span> <span class="k">by</span> <span class="n">mutableStateOf</span><span class="o">&lt;</span><span class="n">ExampleUiState</span><span class="o">&gt;</span><span class="p">(...)</span>
+        <span class="n">private</span> <span class="k">set</span>
+
+    <span class="c1">// Business logic</span>
+    <span class="kd">fun</span> <span class="nf">somethingRelatedToBusinessLogic</span><span class="p">()</span> <span class="p">{</span> <span class="p">...</span> <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nd">@Composable</span>
+<span class="kd">fun</span> <span class="nf">ExampleScreen</span><span class="p">(</span><span class="n">viewModel</span><span class="p">:</span> <span class="n">ExampleViewModel</span> <span class="o">=</span> <span class="n">viewModel</span><span class="p">())</span> <span class="p">{</span>
+
+    <span class="kd">val</span> <span class="nv">uiState</span> <span class="o">=</span> <span class="n">viewModel</span><span class="p">.</span><span class="na">uiState</span>
+    <span class="p">...</span>
+
+    <span class="n">Button</span><span class="p">(</span><span class="n">onClick</span> <span class="o">=</span> <span class="p">{</span> <span class="n">viewModel</span><span class="p">.</span><span class="na">somethingRelatedToBusinessLogic</span><span class="p">()</span> <span class="p">})</span> <span class="p">{</span>
+        <span class="n">Text</span><span class="p">(</span><span class="s">&quot;Do something&quot;</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>如果 ViewModel 中包含要在进程重建后保留的状态，请使用<code>SavedStateHandle</code>。</p>
+</div>
+<h2 id="_8">更多<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+<p><a href="https://developer.android.com/jetpack/compose/state">https://developer.android.com/jetpack/compose/state</a></p>
 
               
             </article>
@@ -972,7 +1647,7 @@
     <nav class="md-footer__inner md-grid" aria-label="页脚">
       
         
-        <a href="../components/Image/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Image" rel="prev">
+        <a href="../Modifiers/" class="md-footer__link md-footer__link--prev" aria-label="上一页: Modifiers" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -981,7 +1656,7 @@
               <span class="md-footer__direction">
                 上一页
               </span>
-              Image
+              Modifiers
             </div>
           </div>
         </a>
@@ -1007,6 +1682,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CopyRight © 2022 RandyWei
+    </div>
   
   
     Made with
