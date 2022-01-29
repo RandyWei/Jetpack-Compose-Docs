@@ -59,14 +59,14 @@ nav:
     - 'Windows 环境搭建': 'environment/windows.md'
     - 'MacOS 环境搭建': 'environment/macOS.md'
   - '项目结构': 'struct.md'
-  - '展示型组件': 
+  - '先来一些简单组件': 
     - 'Text' : 'components/Text.md'
     - 'Button' : 'components/Button.md'
     - 'Icon' : 'components/Icon.md'
     - 'Image' : 'components/Image.md'
   - 'Modifiers': 'Modifiers.md'
   - '状态': 'State.md'
-  - '交互型组件': 
+  - '几个交互型组件': 
     - 'Switch' : 'components/Switch.md'
     - 'TextField' : 'components/TextField.md'
     - 'ProgressIndicator' : 'components/ProgressIndicator.md'
